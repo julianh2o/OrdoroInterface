@@ -55,7 +55,6 @@ define(["jquery","underscore","view/ProgressDialog","view/AddFundsDialog","text!
         }
     }
 
-    console.log(credentials);
     var opt = {
         'auth': {
             'user': credentials.user,
