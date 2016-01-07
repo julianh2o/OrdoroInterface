@@ -1,0 +1,38 @@
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title">
+                Add Endicia Balance
+            </h4>
+        </div>
+        <div class="modal-body">
+            There is insufficient funds in the Endicia account to generate these labels. Add balance to continue.
+            <table class="table">
+                <tr>
+                    <td>Current Balance</td>
+                    <td><span class="balance"></span></td>
+                </tr>
+                <tr>
+                    <td>Label Cost</td>
+                    <td><span class="cost"></span></td>
+                </tr>
+                <tr>
+                    <td>Add Funds</td>
+                    <td>
+                        <span class="addfundssymbols">+$</span><input class="add" type="number" min="10" step="any" />
+                        <span class="lessthanten">$10 minumum</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Remaining balance</td>
+                    <td><span class="remaining"></span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="addfunds btn btn-danger">Add funds</button>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,43 @@
+@import "bootstrap/bootstrap.less";
+@import "flexbox.less";
+
+.container {
+    margin: 10px;
+}
+
+.modal-backdrop {
+  z-index: -1;
+}
+
+.orderList table {
+    width: 100%;
+}
+
+.address,.items {
+    font-size: 10px;
+    color: #999;
+}
+
+.addFunds .balance {
+}
+
+.addFunds {
+    .cost {
+        color: red;
+        &:before {
+            content:'-'
+        }
+    }
+
+    .addfundssymbols {
+        color: green;
+    }
+
+    .lessthanten {
+        visibility: hidden;
+        color: red;
+        &.visible {
+            visibility: visible;
+        }
+    }
+}
